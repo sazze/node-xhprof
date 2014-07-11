@@ -11,6 +11,14 @@
     "php",
     "profile"
   ],
+  "homepage": "https://github.com/sazze/node-xhprof",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sazze/node-xhprof.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sazze/node-xhprof/issues"
+  },
   "author": "Craig Thayer <cthayer@sazze.com>",
   "license": "Apache-2.0",
   "dependencies": {
