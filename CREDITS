@@ -1,0 +1,17 @@
+NOTE: This is the original credits file from https://github.com/facebook/xhprof .
+      This module is a port to Nodejs of the core features from the original library
+      by Craig Thayer <cthayer@sazze.com> in Mar, 2014.  The package.json file
+      contains all appropriate credits for work on this port.
+
+
+Originally developed at Facebook, XHProf was open sourced in Mar, 2009.
+
+Creators:
+  Changhao Jiang
+  Kannan Muthukkaruppan
+  Venkat Venkataramani
+  Haiping Zhao
+
+Additional Contributors:
+  George Cabrera      - UI enhancements
+  Paul Saab           - FreeBSD port

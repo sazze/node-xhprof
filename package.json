@@ -1,0 +1,26 @@
+{
+  "name": "xhprof",
+  "version": "1.0.0",
+  "description": "allows retrieval and processing of PHP XHProf data (reading only, does not write XHProf data)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xhprof",
+    "php",
+    "profile"
+  ],
+  "author": "Craig Thayer <cthayer@sazze.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "php-unserialize": "0.0.1",
+    "mysql2": "^0.11.6",
+    "lodash": "^2.4.1",
+    "async": "^0.2.10",
+    "sprintf": "^0.1.3",
+    "streamers": "^0.1.1",
+    "mongodb": "^1.3.23",
+    "numeral": "^1.5.3"
+  }
+}
