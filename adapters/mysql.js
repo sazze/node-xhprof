@@ -48,6 +48,10 @@ MySQLAdapter.prototype.getRun = function (runId, cb) {
 
   var connection = mysql.createConnection(opts);
 
+  connection.on('error', function (err) {
+    // ignore connection errors
+  });
+
   connection.execute(query, params, function(err, rows) {
     connection.end();
 
