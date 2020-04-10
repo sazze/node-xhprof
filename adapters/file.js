@@ -34,7 +34,7 @@ module.exports = new FileAdapter();
 
 FileAdapter.prototype.getRun = function (runId, cb) {
   var opts = _.merge(this.defaults, options.adapter.options);
-  var file = opts.rootDir.trim().rtrim('/') + '/' + runId + '.' + opts.type.trim().ltrim('.');
+  var file = opts.rootDir.trim().replace(/\/+$/, '') + '/' + runId + '.' + opts.type.trim().replace(/^\.+/, '');
   var callback = (_.isFunction(cb) ? cb : function () {});
 
   fs.exists(file, function (exists) {
